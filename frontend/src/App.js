@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './Home'
+import './Style.css';
 import PlaceIndex from './places/PlaceIndex'
 import PlaceDetails from './places/PlaceDetails'
 import Navigation from './Navigation'
@@ -9,6 +10,7 @@ import EditPlaceForm from './places/EditPlaceForm'
 import SignUpForm from './users/SignUpForm'
 import LoginForm from './users/LoginForm'
 import CurrentUserProvider from './contexts/CurrentUser'
+
 
 function App() {
   return (
