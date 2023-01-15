@@ -31,6 +31,10 @@ function Navigation() {
         )
     }
 
+    let addPlaceButton = null
+
+
+
     return (
         <nav>
             <ul>
@@ -49,6 +53,7 @@ function Navigation() {
                         Add Place
                     </a>
                 </li>
+                {addPlaceButton}
                 {loginActions}
             </ul>
         </nav>
@@ -56,3 +61,12 @@ function Navigation() {
 }
 
 export default Navigation;
+
+
+
+
+
+
+
+  
+
